@@ -1,6 +1,6 @@
-module.exports = {
-    transform: {
-      '^.+\\.jsx?$': 'babel-jest',
-    },
-    testEnvironment: 'node',
-  };
+// jest.config.js (ES Module syntax)
+export default {
+  testEnvironment: "node",
+  testMatch: ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"],
+  transform: {},
+};
